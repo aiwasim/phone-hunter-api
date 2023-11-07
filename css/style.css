@@ -11,8 +11,7 @@ body {
 
 .custom-btn {
     font-weight: 700;
-    color: #100F0F;
-    padding: 8px 30px;
+    padding: 10px 30px;
 }
 
 section {
@@ -25,23 +24,14 @@ header {
     justify-content: center;
 }
 
-.banner {
-    background-image: url(../img/banner_1.png), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    background-size: cover;
-    height: 600px;
-    background-blend-mode: darken;
-}
 
-.banner-content {
-    justify-content: center;
-    text-align: center;
+.banner-content p {
+    color: gray;
+    padding-top: 20px;
 }
 
 .banner-title {
-    font-size: 50px;
     font-weight: 800;
-    margin-bottom: 15px;
-    color: white;
 }
 
 .banner-description {
@@ -49,5 +39,3 @@ header {
     font-size: 14px;
     margin-bottom: 30px;
 }
-
-.custom-btn {}
